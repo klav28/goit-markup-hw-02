@@ -7,7 +7,6 @@
     --color-primary-dark: #212121;
     --color-primary-middle: #757575;
     --color-light: #ffffff;
-
 }
 
 * {
@@ -64,7 +63,7 @@ body {
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    background-color: var(--background-color);
+    background-color: var(--first-background-color);
 }
 
 .header-nav {
@@ -94,7 +93,7 @@ body {
     color: var(--color-primary-middle);
 }
 
-.hero-section {
+.hero {
     background-color: #2F303A;
 }
 
@@ -118,13 +117,18 @@ body {
     color: var(--color-light);
     cursor: pointer;
     border: 0;
-
     background-color: var(--color-accent);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
+.hero-button:hover {
+    background-color: var(--color-light);
+    color: var(--color-primary-dark);
+}
+
 .section {
-    background-color: var(--background-color);
+    background-color: var(--first-background-color);
 }
 
 .benefit-name {
@@ -174,7 +178,7 @@ body {
 }
 
 .portfolio-project {
-    background-color: var(--background-color);
+    background-color: var(--first-background-color);
     list-style: none;
 }
 
@@ -202,6 +206,10 @@ body {
 
 .staff {
     background-color: var(--second-background-color);
+}
+
+.staff-detail {
+    background-color: var(--first-background-color);
 }
 
 .staff-name {
