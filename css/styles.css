@@ -20,7 +20,6 @@ body {
     background-color: #F5F5F5;
     
     font-family: "Roboto", sans-serif;
-    /* font-style: normal; */
 
     color: var(--color-primary-dark);
 }
@@ -83,6 +82,12 @@ body {
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    color: var(--color-accent);
+}
+
+.header-contacts-mail:hover,
+.header-contacts-mail:focus {
+    color: var(--color-primary-dark);
 }
 
 .header-contacts-phone {
@@ -91,6 +96,11 @@ body {
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--color-primary-middle);
+}
+
+.header-contacts-phone:hover,
+.header-contacts-phone:focus {
+    color: var(--color-dark);
 }
 
 .hero {
