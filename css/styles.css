@@ -214,7 +214,7 @@ body {
 }
 
 .staff-detail {
-    /* background-color: var(--first-background-color); */
+    background-color: var(--first-background-color);
 }
 
 .staff-name {
